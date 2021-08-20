@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Yahtzee LongDistance.loader.js";
+      var loaderUrl = buildUrl + "/YahtzeeLongDistance.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Yahtzee LongDistance.data.br",
-        frameworkUrl: buildUrl + "/Yahtzee LongDistance.framework.js.br",
-        codeUrl: buildUrl + "/Yahtzee LongDistance.wasm.br",
+        dataUrl: buildUrl + "/YahtzeeLongDistance.data",
+        frameworkUrl: buildUrl + "/YahtzeeLongDistance.framework.js",
+        codeUrl: buildUrl + "/YahtzeeLongDistance.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Team LongDistance",
         productName: "LongDistance Yahtzee",
@@ -65,7 +65,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/Yahtzee LongDistance.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/YahtzeeLongDistance.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
